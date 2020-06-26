@@ -42,9 +42,9 @@ sampleR1=$1
 sampleR2=$2
 indexpair=$3
 
-######################################
-## Quantify transcripts with salmon ##
-######################################
+#####################################################
+## Assmble CDR3 contigs, annotate V(D)J with miXCR ##
+#####################################################
 
 printf "Extracting TCR data from sample files\n${sampleR1} and\n${sampleR2}\n"
 
